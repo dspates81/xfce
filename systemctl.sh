@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo systemctl enable lightdm.sevrice
+systemctl enable lightdm.sevrice
 systemctl enable bluetooth
 systemctl enable sshd
 systemctl enable avahi-daemon
