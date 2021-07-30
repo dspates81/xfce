@@ -2,10 +2,6 @@
 
 sudo pacman -Syu
 
-sudo firewall-cmd --add-port=1025-65535/tcp --permanent
-sudo firewall-cmd --add-port=1025-65535/udp --permanent
-sudo firewall-cmd --reload
-
 
 
 #Xfce
@@ -15,7 +11,5 @@ sudo pacman -S --needed exo garcon thunar thunar-volman tumbler xfce4-appfinder 
 #Other
 sudo pacman -S --needed  firefox arc-gtk-theme arc-icon-theme code vlc gvfs gvfs-smb edk2-ovmf vde2 nss-mdns virt-manager qemu qemu-arch-extra mkinitcpio-archiso archiso arch-install-scripts bash e2fsprogs libarchive libisoburn squashfs-tools erofs-utils openssl dkms fuse2 gtk3 gtkmm3 hicolor-icon-theme
 
-sudo ./xfce/systemctl.sh
-
-sudo reboot
+./xfce/systemctl.sh
 
