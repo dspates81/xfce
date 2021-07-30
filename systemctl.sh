@@ -11,3 +11,4 @@ systemctl enable libvirtd
 systemctl enable firewalld
 systemctl enable acpid
 systemctl enable NetworkManager
+
