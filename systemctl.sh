@@ -1,6 +1,6 @@
 #!/bin/bash
 
-systemctl enable lightdm.sevrice
+systemctl enable lightdm.service
 systemctl enable bluetooth
 systemctl enable sshd
 systemctl enable avahi-daemon
@@ -14,5 +14,3 @@ systemctl enable acpid
 sudo firewall-cmd --add-port=1025-65535/tcp --permanent
 sudo firewall-cmd --add-port=1025-65535/udp --permanent
 sudo firewall-cmd --reload
-
-sudo reboot
