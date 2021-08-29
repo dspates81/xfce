@@ -1,9 +1,8 @@
 #!/bin/bash
 
-systemctl enable smb.service
-systemctl enable lightdm.service
+#systemctl enable smb.service
+systemctl enable slim.service
 systemctl enable bluetooth
-systemctl enable sshd
 #systemctl enable avahi-daemon
 systemctl enable tlp # You can comment this command out if you didn't install tlp, see above
 systemctl enable reflector.timer
